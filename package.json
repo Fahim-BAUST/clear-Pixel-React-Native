@@ -1,21 +1,40 @@
 {
   "name": "clear-pixel-android",
   "version": "1.0.0",
-  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web",
     "eject": "expo eject"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-native-fontawesome": "^0.2.7",
     "expo": "~43.0.2",
     "expo-status-bar": "~1.1.0",
+    "firebase": "^9.6.1",
+    "native-base": "^3.2.2",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-native": "0.64.3",
-    "react-native-web": "0.17.1"
+    "react-native-cards-slider": "^0.1.2",
+    "react-native-dotenv": "^3.3.1",
+    "react-native-elements": "git+https://github.com/react-native-elements/react-native-elements.git",
+    "react-native-image-slider-banner": "^1.0.2",
+    "react-native-nav": "^2.0.2",
+    "react-native-ratings": "^8.1.0",
+    "react-native-safe-area-context": "3.3.2",
+    "react-native-svg": "12.1.1",
+    "react-native-vector-icons": "^9.0.0",
+    "react-native-web": "0.17.1",
+    "react-router-native": "^6.1.1",
+    "expo-splash-screen": "~0.13.5",
+    "expo-updates": "~0.10.13",
+    "react-native-gesture-handler": "~1.10.2",
+    "react-native-reanimated": "~2.2.0",
+    "react-native-screens": "~3.8.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
